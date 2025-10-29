@@ -1,0 +1,4 @@
+- [x] Add `<div id="hidden_siblings"></div>` after existing hidden inputs.
+- [x] Initialize `var sibling_index = 0;` in script.
+- [x] Modify `.add_sibling` click: append sibling item to `#sibling_list` with name and remove button, append hidden inputs to `#hidden_siblings` with `data-index`.
+- [x] Add event for `.remove-sibling` to remove item and corresponding hidden inputs by index.
